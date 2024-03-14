@@ -44,6 +44,11 @@ To start a dev server for a specific module, run:
 yarn start --sources 'packages/esm-<insert-package-name>-app'
 ```
 
+Run specific package with specific backend
+```bash
+yarn start --sources packages/esm-patient-registration-app/ --backend https://openmrs-o3.mpower-social.com
+```
+
 This command uses the [openmrs](https://www.npmjs.com/package/openmrs) tooling to fire up a dev server running `esm-patient-management` as well as the specified module.
 
 You could provide `yarn start` with as many `sources` arguments as you require. For example, to run the patient registration and patient search modules only, use:
