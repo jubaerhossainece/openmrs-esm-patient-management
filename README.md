@@ -13,7 +13,7 @@ This repository contains frontend modules for the OpenMRS SPA. These modules rel
 - [Patient registration](packages/esm-patient-registration-app)
 - [Patient list management](packages/esm-patient-list-management-app)
 
-## Setup
+## Setup-local
 
 Check out the developer documentation [here](http://o3-dev.docs.openmrs.org).
 
