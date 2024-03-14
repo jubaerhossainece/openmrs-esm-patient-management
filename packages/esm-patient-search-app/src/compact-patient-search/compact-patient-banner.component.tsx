@@ -107,8 +107,9 @@ const CompactPatientBanner = forwardRef<HTMLDivElement, CompactPatientBannerProp
             </div>
             <div>
               <div className={styles.flexRow}>
-                <h2 className={styles.patientName}>{`${patient.name?.[0]?.given?.join(' ')} ${patient.name?.[0]
-                  ?.family}`}</h2>
+                <h2 className={styles.patientName}>{`${patient.name?.[0]?.given?.join(' ')} ${
+                  patient.name?.[0]?.family
+                }`}</h2>
                 <ExtensionSlot
                   name="patient-banner-tags-slot"
                   state={{ patient, patientUuid: patient.id }}
